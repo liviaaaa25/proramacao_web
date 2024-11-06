@@ -1,0 +1,28 @@
+nav {
+    text-align: center;
+    margin:10px ;
+    
+    background:rgba(128, 2, 2, 0.807) ;
+    
+    }
+    
+    li{
+        display: inline-block   ; text-align: center;
+    }
+    a {
+    padding: 150px;
+    text-align: center;
+    
+    }
+    .letter{
+        display: inline-block;
+        font-size: 2em;
+        transition:transform 0.3s ;
+        }
+        .letter:hover {
+            transform: scale(1.2);
+            color:rgb(128, 2, 2);
+        }
+        h1{
+            text-align: center;
+        }

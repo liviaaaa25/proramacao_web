@@ -1,0 +1,132 @@
+body {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+nav {
+    text-align: center;
+    margin:30px ;
+    background:rgba(238, 81, 81, 0.818) ;
+    
+    }
+    
+    li{
+        display: inline-block   ; text-align: center;
+    }
+    
+    a {
+        padding: 150px;
+        text-align: center;
+    }    
+.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.menu a {
+    padding: 10px 20px;
+    margin-right: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+h2{
+    background-color: rgb(238, 81, 81, 0.818);
+}
+.container {
+    display: flex;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between; /* Espaço entre as colunas */
+}
+
+.box, .circular, #box3 {
+    width: 90%; /* Cada coluna ocupa aproximadamente metade da tela */
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto; /* Ajusta a altura automaticamente conforme o conteúdo */
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.circular {
+    border-radius: 15px;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    width: 48%; /* Ocupa metade da tela */
+}
+
+.box {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#box3 {
+    background-color: white;
+}
+
+.letter {
+    display: inline-block;
+    font-size: 2em;
+    transition: transform 0.3s;
+}
+
+.letter:hover {
+    transform: scale(1.2);
+    color: rgb(238, 81, 81);
+}
+
+input, textarea {
+    background: rgb(238, 81, 81, 0.818);
+}
+
+footer {
+    display: flex;
+    margin: 10px;
+    flex: 1 1 100vw;
+    background: rgb(238, 81, 81, 0.818);
+}
+.instagram-link {
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.instagram-image {
+    width: 100px; /* Altere o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 1000px ; /* Canto arredondado, opcional */
+    transition: transform 0.3s; /* Efeito de transição */
+}
+
+.instagram-image:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+iframe{
+    width: 36%;
+    height: 250px;
+}
+
+.perfil {
+    width: 150px; /* Ajuste o tamanho da imagem */
+    height: 150px; /* Ajuste o tamanho da imagem */
+    border-radius: 50%; /* Faz a imagem ficar em formato circular */
+    object-fit: cover; /* Garante que a imagem preencha o espaço */
+}
+.music{
+    width: 35%;
+    height: 450px;
+}
+.video{
+    width: 40%;
+}
