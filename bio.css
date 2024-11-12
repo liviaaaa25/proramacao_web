@@ -2,21 +2,42 @@ body {
     background: rgb(255, 255, 255);
 }
 nav {
-text-align: center;
-margin:10px ;
-
-background:rgba(178, 19, 19, 0.767) ;
-
-}
-
-li{
-    display: inline-block   ; text-align: center;
-}
-a {
-padding: 150px;
-text-align: center;
-
-}
+    text-align: center;
+    margin:30px ;
+    background: #895ef8; margin: 0;
+    
+   
+    }
+    
+    li{
+        display: inline-block   ; text-align: center; margin-top: 20px; font-family: graffiti ;
+    }
+    a {
+        position: relative;
+        text-decoration: none;
+        font-family: 'Poppins' ,sans-serif;
+        color: #000000;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        padding: 0 150px;
+      }
+      a:after {
+        content: "";
+        position: absolute;
+        background-color: #000000;
+        height: 3px;
+        width: 10;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+      }
+      a:hover {
+        color: #ffffff;
+      }
+      a:hover:after{
+        width: 10%;
+      }
+    
 
 input {
     background: rgb(219, 186, 186);
